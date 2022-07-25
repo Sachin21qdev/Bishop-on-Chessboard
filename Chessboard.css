@@ -1,0 +1,27 @@
+.chess-board {
+    border-spacing: 0; 
+    border-collapse: collapse; 
+    margin: auto;
+}
+.chess-board th { 
+    padding: 2em; 
+}
+.chess-board td {
+    border: 1px solid;
+    width:4em;
+    height: 4em;
+    cursor: pointer;
+}
+.chess-board .light{
+    background: #eee; 
+
+} 
+.chess-board .dark { 
+    background: #000; 
+}
+.chess-board .light :hover{
+    color: blue;
+}
+.chess-board .dark :hover{
+    color:lightblue;
+}
